@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+main{
+    height: 800px;
+}
+
+
 .titolo{
     color: #e53170;
     font-weight: bolder;
@@ -12,14 +17,14 @@
 }
 
 .contenitore{
-    text-align: center;
+    height: 500px;
 }
 
-.cardpersonale {
+.cardpersonale{
     background-color: #0f0e17;
     width: calc(30% - 15px);
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-right: 15px;
+    margin-bottom: 15px;
     float: left;
 }
 
@@ -38,11 +43,13 @@ img{
 
 .nome{
     font-size: 20px;
+    padding: 1;
 }
 
 .professione{
     font-size:15px;
-    font-weight: 200;
+    font-weight: 100;
+    padding: 1;
 }
 
 .colorwhite{
